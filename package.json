@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-example",
+  "version": "1.0.0",
+  "description": "Example of server-rendered app with Express and Next",
+  "main": "index.js",
+  "repository": "https://github.com/ristaa/nextjs-express.git",
+  "author": "ristaa",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mime": "^2.4.0",
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
